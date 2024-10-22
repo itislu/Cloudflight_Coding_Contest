@@ -1,7 +1,7 @@
 import os
 import sys
 
-ROOT_FOLDER = os.path.dirname(os.path.abspath(f"{__file__}/.."))
+ROOT_FOLDER = os.path.dirname(os.path.abspath(f"{__file__}/../.."))
 # from CCC import ROOT_FOLDER
 sys.path.append(ROOT_FOLDER)
 from file_handler import FileHandler, File  # type: ignore
